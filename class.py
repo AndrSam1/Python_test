@@ -69,3 +69,4 @@ print(f'Manager {man.get_name()} salary ${man.get_salary()}')
 
 director = Director("Stanislav Kuznetsov", 2100, 100)
 print(f'Director {director.get_name()} salary ${director.get_salary()}')
+print(f'Director - number of subordinates {director.number_of_subordinates}')
